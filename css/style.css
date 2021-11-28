@@ -1,0 +1,53 @@
+/* font face */
+@font-face{
+    font-family: 'IRANSans';
+    /* eot */
+    src: url('../fonts/IRANSansWeb.eot') format('eot'),
+    /* ttf */
+         url('../fonts/IRANSansWeb.ttf') format('truetype'),
+         /* woff2 */
+         url('../fonts/IRANSansWeb.woff2') format('woff2'),
+         /* woff */
+         url('../fonts/IRANSansWeb.woff')format('woff'),
+}
+body{
+   font-family: 'IRANSans';
+}
+/* header image */
+.header-iamge{
+    width: 100%;
+    background-color: brown;
+    background-image: url('../images/hx-family-headset-cloudx-flight-lg.jpg');
+    height:60vh;
+    background-position: center;
+    background-size: cover;
+}
+.header-iamge img{
+    width: 100%;
+    height: 60vh;
+}
+/* haedr text */
+.text-header{
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top:100px;   
+}
+/* main cart */
+.main-cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+/* cart */
+.cart{
+    background-color: red;
+    width:18rem;
+    height:40vh;
+    margin-top: 20px;
+}
+.text-main{
+    border-bottom:2px solid red;
+    font-size:x-large;
+}
