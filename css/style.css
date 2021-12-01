@@ -35,6 +35,7 @@ body{
 }
 /* main cart */
 .main-cart{
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -45,9 +46,141 @@ body{
     background-color: red;
     width:18rem;
     height:40vh;
-    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 .text-main{
     border-bottom:2px solid red;
     font-size:x-large;
+}
+
+
+
+/* cart */
+.card {
+  margin-top: 40px;
+  box-shadow: 2px 1px 10px 0 rgb(167, 167, 167);
+  border-radius: 8px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.cart-butoon {
+  display: flex;
+  justify-content: space-around;
+}
+.cart-butoon .spn {
+  color: grey;
+}
+
+.cr {
+  display: flex;
+}
+.cr .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f9e46f8;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  transition: 0.3s all;
+  margin: 5px;
+  direction: ltr;
+}
+
+.button span {
+  opacity: 0;
+  margin-left: 10px;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  width: 80px;
+}
+
+.button:hover span {
+  opacity: 1;
+}
+.hans{
+  font-size: 1.5rem;
+
+ border-bottom: 2px solid red;
+}
+.heder-cart{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.btn-pish{
+  border:none;
+  background: rgb(214, 26, 26);
+ color: white;
+ padding: 4px;
+border-radius: 6px;
+}
+.star{
+  color: gold;
+}
+
+
+/* footer */
+.footer{
+    height: 40vh;
+    background-color: #808080;
+    display: flex;
+    color: white;
+    padding-top: 30px;
+}
+
+.progragh1 p{
+    width:90%;
+}
+.icon-footer{
+    width:90%;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+/* responsive site */
+
+@media (max-width: 1328px) {
+    .footer{
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icons{
+        display: flex;
+        width: 60%;
+    }
+
+}
+@media (max-width: 700px) {
+    .footer{
+        height: 150vh;
+        
+    }
+}
+@media (max-width: 599px) {
+    .footer{
+        height: 100vh;
+        
+    }
+}
+@media (max-width: 439px) {
+    .footer{
+        height: 200vh;
+        
+    }
 }
